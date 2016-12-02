@@ -4,6 +4,7 @@ phases:
   install:
     commands:
       - echo Nothing to do in the install phase...
+      - docker-compose version
   pre_build:
     commands:
       - echo Nothing to do in the pre_build phase...
